@@ -1,6 +1,8 @@
 # photographic-spectrometric-comparison
 data & code associated with Tedore C (2024). A comparison of photographic and spectrometric methods to quantify the colours seen by animal eyes. Methods in Ecology and Evolution 15(1), 4–23. https://doi.org/10.1111/2041-210X.14255
 
+Workspace files with pre-aligned images are available at https://doi.org/10.6084/m9.figshare.22284688.v1 (too large for github). 
+
 To re-create the analyses done in the paper, the user must open MATLAB and:
 1.  Set ‘1 Computational Filters/’ as the working directory and run the ‘realFilters_1.m’ script, followed by the ‘computFilters_2.m’ script, following any instructions written at the top of the script.
 2.  Set ‘2 Statistical Filters/’ as the working directory and:
