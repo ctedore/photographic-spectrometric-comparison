@@ -6,13 +6,13 @@ Workspace files with pre-aligned images are available at https://doi.org/10.6084
 To re-create the analyses done in the paper, the user must open MATLAB and:
 1.  Set ‘1 Computational Filters/’ as the working directory and run the ‘realFilters_1.m’ script, followed by the ‘computFilters_2.m’ script, following any instructions written at the top of the script.
 2.  Set ‘2 Statistical Filters/’ as the working directory and:
-    a.  Run the ‘StatisticalFilters_photorecMapping_naturalSpectra.m’ script, following the instructions written at the top of the script.
-    b.  Run the ‘StatisticalFilters_photorecMapping_colorChart.m’ script, following the instructions written at the top of the script.
+        a.  Run the ‘StatisticalFilters_photorecMapping_naturalSpectra.m’ script, following the instructions written at the top of the script.
+        b.  Run the ‘StatisticalFilters_photorecMapping_colorChart.m’ script, following the instructions written at the top of the script.
 3.  Set the working directory to the one containing the images you want to use to compare methods (e.g., 'Pastels Images/' or 'Bird Specimen Images/Alcedo atthis insipida adult male/')
-    a.  Run the ‘compareCustomComputStatNdim.m’ function found in the ‘3 Comparison of All Filters’ folder, following the instructions written at the top of the function.
-    b.  Repeat (a) on all bird specimen images.
-    c.  Set the working directory to the one containing all bird specimen images (i.e., ‘Bird Specimen Images/’). Then run the ‘plotAllBirdDataNDim.m’ function found in the ‘3 Comparison of All Filters’ folder, following the instructions written at the top of the function.
-    Note: To complete 3a-c in one step for all species of bird specimens, one can alternatively run the ‘compareMaster.m’ script. Note, however, that there are a number of adjustable parameters that must first be adjusted at the top of the ‘compareCustomComputStatNdim.m’ and ‘plotAllBirdDataNDim.m’ functions.
+        a.  Run the ‘compareCustomComputStatNdim.m’ function found in the ‘3 Comparison of All Filters’ folder, following the instructions written at the top of the function.
+        b.  Repeat (a) on all bird specimen images.
+        c.  Set the working directory to the one containing all bird specimen images (i.e., ‘Bird Specimen Images/’). Then run the ‘plotAllBirdDataNDim.m’ function found in the ‘3 Comparison of All Filters’ folder, following the instructions written at the top of the function.
+        Note: To complete 3a-c in one step for all species of bird specimens, one can alternatively run the ‘compareMaster.m’ script. Note, however, that there are a number of adjustable parameters that must first be adjusted at the top of the ‘compareCustomComputStatNdim.m’ and ‘plotAllBirdDataNDim.m’ functions.
 4.  Set ‘4 MATLAB vs MICA/’ as the working directory and run the ‘MATvMICA_VSbirds.m’ script.
 
 Note that the ‘3 Comparison of All Filters/Pastels Images/’ directory and each bird image directory has the images ordered thusly, which each bandpass filter image in its own folder, and each exposure set of six custom filters in its own folder: 
