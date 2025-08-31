@@ -1,0 +1,50 @@
+Test Name	Index Mode (extended exposure)
+Username	Admin
+Test Started	2022-06-13_17.25.27
+Test Finished	2022-06-13_17.25.47
+Iterations Executed	2
+Camera Interface Name	cam0
+Filter 1 Name	UVS
+Filter 2 Name	VS
+Filter 3 Name	SWS2(UVS)
+Filter 4 Name	SWS2(VS)
+Filter 5 Name	MWS
+Filter 6 Name	LWS
+Filter 7 Name	MWS no oil
+Filter 8 Name	empty
+Image Log Format	TIFF (16-bit)
+Bit Depth	10
+Filter 1 Enabled	Yes
+Filter 1 Exposure (ms)	45.000000
+Filter 1 Gain (dB)	0.000000
+Filter 1 # to Acquire	1
+Filter 2 Enabled	Yes
+Filter 2 Exposure (ms)	15.000000
+Filter 2 Gain (dB)	0.000000
+Filter 2 # to Acquire	1
+Filter 3 Enabled	Yes
+Filter 3 Exposure (ms)	10.000000
+Filter 3 Gain (dB)	0.000000
+Filter 3 # to Acquire	1
+Filter 4 Enabled	Yes
+Filter 4 Exposure (ms)	9.000000
+Filter 4 Gain (dB)	0.000000
+Filter 4 # to Acquire	1
+Filter 5 Enabled	Yes
+Filter 5 Exposure (ms)	9.000000
+Filter 5 Gain (dB)	0.000000
+Filter 5 # to Acquire	1
+Filter 6 Enabled	Yes
+Filter 6 Exposure (ms)	6.000000
+Filter 6 Gain (dB)	0.000000
+Filter 6 # to Acquire	1
+Filter 7 Enabled	Yes
+Filter 7 Exposure (ms)	4.000000
+Filter 7 Gain (dB)	0.000000
+Filter 7 # to Acquire	1
+Filter 8 Enabled	No
+Filter 8 Exposure (ms)	90.000000
+Filter 8 Gain (dB)	0.000000
+Filter 8 # to Acquire	0
+Desired Iterations	2
+Logging Buffer Length	8
