@@ -1,6 +1,8 @@
 # photographic-spectrometric-comparison
 data & code associated with Tedore C (2024). A comparison of photographic and spectrometric methods to quantify the colours seen by animal eyes. Methods in Ecology and Evolution 15(1), 4–23. https://doi.org/10.1111/2041-210X.14255
 
+There are a number of published photographic and spectrometric techniques for producing estimates of the colors seen by animal eyes, but before this paper, their relative accuracies remained untested. This paper compares four photographic methods and one reflectance spectrometry method to ground-truth spectroradiometric measurements of radiance. One of the camera-based methods is newly introduced and shown to be one of the most accurate methods available to researchers. Color patches were evaluated from a set of 48 pastels and 14 bird specimens by eight animal visual systems.   
+
 Workspace files with pre-aligned images are available at https://doi.org/10.6084/m9.figshare.22284688.v1 (too large for github). 
 
 To re-create the analyses done in the paper, the user must open MATLAB and:
